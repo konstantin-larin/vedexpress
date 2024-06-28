@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="icons/logo-1.svg">
+    <title>VEDExpress</title>
+</head>
+
+<body>
+    <div id="scroll-to-menu" style="display: none;" onclick="window.scrollTo(0, 0)">
+        <svg class="usual-color" width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M6.17505 1.20283L2.35838 5.11841L6.17505 9.03399L5.00005 10.2368L4.95911e-05 5.11841L5.00005 0L6.17505 1.20283Z"
+                fill="white" />
+        </svg>
+        <svg class="inverted-color" width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M6.17505 1.20283L2.35838 5.11841L6.17505 9.03399L5.00005 10.2368L4.95911e-05 5.11841L5.00005 0L6.17505 1.20283Z"
+                fill="rgba(44, 71, 118, 1)" />
+        </svg>
+    </div>
+
+    <header id="menu-1">
+        <a href="VEDExpressDe.html"><img src="icons/logo-1.svg" alt="" class="logo"></a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li>
+                    <a href="#about-us" data-pointerover="menu-1-nav-link">Über uns</a>
+
+                    <ul class="menu-list nav-link-list" style="display: none;" data-pointerover="menu-1-nav-link-list">
+                        <li>
+                            <a href="#about-us_how-we-work"><span>Wie arbeiten wir?</span></a>
+                        </li>
+                        <li>
+                            <a href="#about-us_do-you-have-questions"><span>Haben Sie noch Fragen?</span></a>
+                        </li>
+                        <li>
+                            <a href="#about-us_what-we-offer"><span>Was bieten wir an?</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Logistik für Rechenzentren</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Versicherung</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Zertifizierung</span></a>
+                        </li>
+                        <li>
+                            <a href="#partners"><span>Unsere Partner</span></a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#service" data-pointerover="menu-1-nav-link">Dienstleistungen</a>
+
+                    <ul class="menu-list nav-link-list" style="display: none;" data-pointerover="menu-1-nav-link-list">
+                        <li>
+                            <a data-click="open-service-info" data-servicenum="1"><span>
+                                    Vertrags-Logistik Außenwirtschaft</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-click="open-service-info" data-servicenum="2"><span>
+                                    Frachtzaun und -verpackung</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-click="open-service-info" data-servicenum="3"><span>Inspektion
+                                    Fracht</span></a>
+                        </li>
+                        <li>
+                            <a  data-click="open-service-info" data-servicenum="4"><span>Aufbewahrung</span></a>
+                        </li>
+                        <li>
+                            <a  data-click="open-service-info" data-servicenum="5"><span>Zollabwicklung</span></a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#international" data-pointerover="menu-1-nav-link">Grenzverkehr</a>
+
+                    <ul class="menu-list nav-link-list" style="display: none;" data-pointerover="menu-1-nav-link-list">
+                        <li>
+                            <a href="#international"><span>FLUG</span></a>
+                        </li>
+                        <li>
+                            <a href="#international"><span>MEER</span></a>
+                        </li>
+                        <li>
+                            <a href="#international"><span>BAHN</span></a>
+                        </li>
+                        <li>
+                            <a href="#international"><span>AUTO</span></a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#business" data-pointerover="menu-1-nav-link">Business-Lösung</a>
+
+                    <ul class="menu-list nav-link-list" style="display: none;" data-pointerover="menu-1-nav-link-list">
+                        <li>
+                            <a href="#business"><span>Rechenzentrum</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>EOR-IOR-Agent</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Zertifizierung</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Versicherung</span></a>
+                        </li>
+                        <li>
+                            <a href="#business"><span>Globaler Handelsagent</span></a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#footer" data-pointerover="menu-1-nav-link">Sammelgut</a>
+
+                    <ul class="menu-list nav-link-list" style="display: none;" data-pointerover="menu-1-nav-link-list">
+                        <li>
+                            <a href="#footer"><span>Lieferung von/nach Europa</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung in die GUS</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung aus China</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung aus Korea</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung aus Israel</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung aus USA</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung aus Kanada</span></a>
+                        </li>
+                        <li>
+                            <a href="#footer"><span>Lieferung von/nach Nordamerika</span></a>
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <div class="switch-lang-container" data-click="open-lang-list">
+                <img src="icons/de-lang.svg" alt="" class="lang-icon">
+                <span>De</span>
+                <img src="icons/галочка.svg" alt="" class="open-lang-list-arrow ">
+
+                <ul class="menu-list lang-list" style="display: none;">
+                    <li data-click="lang-li-highlight">
+                        <a href="VEDExpressRu.html" class="link-to-lang">
+                            <img src="icons/ru-lang.svg" alt="">
+                            <span>Ru</span>
+                        </a>
+                    </li>
+                    <li data-click="lang-li-highlight">
+                        <a href="VEDExpressEn.html" class="link-to-lang">
+                            <img src="icons/en-lang.svg" alt="">
+                            <span>En</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="call-menu-container menu-container">
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+                <button class="call-menu" data-pointerover="replace-circles" data-click="call-menu">Menü</button>
+            </div>
+        </div>
+
+        <ul class="header-social-links-list">
+            <li>
+                <a href="https://vk.com/konstantin_larin_33" target="_blank"><img src="icons/vk.svg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://facebook.com/" target="_blank"><img src="icons/facebook.svg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=sYiv9UEa4pI" target="_blank"><img src="icons/youtube.svg" alt=""></a>
+            </li>
+        </ul>
+
+        <div class="header-text-content">
+            <h3></h3>
+            <h1>Der <p>gesamte</p>Logistikkomplex</h1>
+            <ul class="list-of-advantages">
+                <li class="descriptor-2">
+                    Wir vertrauen auf die Organisation von Lieferungen und Gütertransporten, die von Haushaltswaren
+                    reichen
+                    und endet mit teuren Geräten.
+                </li>
+                <li class="descriptor-2">
+                    Wir führen eine vollständige Palette von schlüsselfertigen Dienstleistungen vom Einkauf beim
+                    Lieferanten bis zum
+                    lieferung an ihre adresse . Wir können uns in jeder Phase des Güterverkehrs verbinden.
+                </li>
+                <li class="descriptor-2">
+                    Outsourcing von außenwirtschaftlichen Aktivitäten
+                </li>
+                <li class="descriptor-2">
+                    Wir arbeiten mit Gütern auf der ganzen Welt
+                </li>
+            </ul>
+        </div>
+
+        <div class="tel">
+            <a href="tel:79001547248" type="tel" class="tel">+7 900 154 72 48</a>
+        </div>
+    </header>
+
+    <div id="menu-2-container">
+        <header id="menu-2" data-click="close-nav-link-list">
+            <img src="icons/logo-2.svg" alt="" class="logo">
+
+            <nav class="menu-2-nav">
+                <ul class="menu-2-nav-list">
+                    <li>
+
+
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">Über uns</a>
+
+                        <ul style="display: none;" class="menu-2-nav-link-list">
+                            <li>
+                                <a href="#about-us_how-we-work"><span data-click="close-menu">Wie arbeiten
+                                        wir?</span></a>
+                            </li>
+                            <li>
+                                <a href="#about-us_do-you-have-questions"><span data-click="close-menu">Bliebt
+                                        fragen?</span></a>
+                            </li>
+                            <li>
+                                <a href="#about-us_what-we-offer"><span data-click="close-menu">Dass wir
+                                        bieten wir an?</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Logistik für Rechenzentren</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Versicherung</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Zertifizierung</span></a>
+                            </li>
+                            <li>
+                                <a href="#partners"><span data-click="close-menu">Unsere Partner</span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">Dienstleistungen</a>
+
+                        <ul style="display: none;" class="menu-2-nav-link-list">
+                            <li>
+                                <a><span data-click="open-service-info" data-servicenum="1">Vertrags-Logistik
+                                        Außenwirtschaft</span></a>
+                            </li>
+                            <li>
+                                <a><span data-click="open-service-info" data-servicenum="2">Zaun und Verpackung
+                                        Fracht</span></a>
+                            </li>
+                            <li>
+                                <a><span data-click="open-service-info" data-servicenum="3">Inspektion
+                                        Fracht</span></a>
+                            </li>
+                            <li>
+                                <a><span data-click="open-service-info" data-servicenum="4">Aufbewahrung</span></a>
+                            </li>
+                            <li>
+                                <a><span data-click="open-service-info" data-servicenum="5">Zollamtliches
+                                        Gestaltung</span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">
+                            Grenzverkehr</a>
+
+                        <ul style="display: none;" class="menu-2-nav-link-list">
+                            <li>
+                                <a href="#international"><span data-click="close-menu">FLUG</span></a>
+                            </li>
+                            <li>
+                                <a href="#international"><span data-click="close-menu">MEER</span></a>
+                            </li>
+                            <li>
+                                <a href="#international"><span data-click="close-menu">BAHN</span></a>
+                            </li>
+                            <li>
+                                <a href="#international"><span data-click="close-menu">AUTO</span></a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">Business-Lösungen</a>
+
+                        <ul style="display: none;" class="menu-2-nav-link-list">
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Rechenzentrum</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">EOR-IOR-Agent</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Zertifizierung</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Versicherung</span></a>
+                            </li>
+                            <li>
+                                <a href="#business"><span data-click="close-menu">Globaler Handelsagent</span></a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">
+                            Sammelgut
+                        </a>
+
+                        <ul style="display: none;" class="menu-2-nav-link-list">
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung von/nach Europa</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung in die GUS</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung aus China</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung aus Korea</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung aus Israel</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung aus USA</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung aus Kanada</span></a>
+                            </li>
+                            <li>
+                                <a href="#footer"><span data-click="close-menu">Lieferung von/nach Norden
+                                        Amerika</span></a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">Dokumente</a>
+                        <ul class="menu-2-nav-link-list" style="display: none;">
+                            <li><a href="#footer"><span data-click="close-menu">Datenschutz</span></a></li>
+                            <li><a href="#footer"><span data-click="close-menu">Nutzungsbedingungen</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-2-nav-link" data-click="menu-2-open-link-list">Information</a>
+                        <ul class="menu-2-nav-link-list" style="display: none;">
+                            <li><a href="#footer"><span data-click="close-menu">Kontakte</span></a></li>
+                            <li><a href="#footer"><span data-click="close-menu">Unsere Büros</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-buttons">
+                <div class="switch-lang-container" data-click="open-lang-list">
+                    <img src="icons/de-lang.svg" alt="" class="lang-icon">
+                    <span>De</span>
+                    <img src="icons/галочка.svg" alt="" class="open-lang-list-arrow ">
+
+                    <ul class="menu-list lang-list" style="display: none;">
+                        <li>
+                            <a href="VEDExpressRu.html" class="link-to-lang">
+                                <img src="icons/ru-lang.svg" alt="">
+                                <span>Ru</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="VEDExpressEn.html" class="link-to-lang">
+                                <img src="icons/en-lang.svg" alt="">
+                                <span>En</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="close-menu-container menu-container">
+                    <div class="circle-group">
+                        <div class="col-4-circle sm-circle"></div>
+                        <div class="col-2-circle lg-circle"></div>
+                    </div>
+                    <button class="close-menu" data-pointerover="replace-circles"
+                        data-click="close-menu">Schließen</button>
+                </div>
+            </div>
+
+            <ul class="header-social-links-list">
+                <li>
+                    <a href="https://vk.com/konstantin_larin_33" target="_blank"><img src="icons/vk.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/" target="_blank"><img src="icons/facebook.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=sYiv9UEa4pI" target="_blank"><img src="icons/youtube.svg" alt=""></a>
+                </li>
+            </ul>
+
+            <div class="mail-and-schedule">
+                <p>
+                    <img src="icons/green-mail.svg" alt="">
+                    <span>info@vedexpress.com</span>
+                </p>
+                <p>
+                    <img src="icons/green-clock.svg" alt="">
+                    <span>mo-so: 09.00-17.00 uhr</span>
+                </p>
+            </div>
+
+            <div class="tel">
+                <a class="tel" href="tel:74993501012"><a href="tel:79001547248" type="tel" class="tel">+7 900 154 72 48</a></a>
+            </div>
+        </header>
+    </div>
+
+    <div id="about-us" class="section-container">
+        <section id="about-us_how-we-work">
+            <h3 id="about-us_how-we-work">Wie</h3>
+            <h2>
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+
+                <span data-pointerover="replace-circles">wir arbeiten</span>
+            </h2>
+            <div class="section-description">
+                <p class="descriptor-2">
+                    Unser Logistikunternehmen bietet Outsourcing- und Transportlogistikdienstleistungen für Außenhandel
+                    an.
+                    Unsere Manager regeln alle Fragen zum Außenhandel und organisieren den internationalen Güterverkehr
+                    jedes Produkt, einschließlich: beliebiger Komplexität und jeder Art von Transport, so dass
+                    Ihre Organisation konzentriert sich darauf, Ihr eigenes Geschäft zu führen.
+                    Wir übernehmen die Organisation der einmaligen Lieferung,
+                    so gewährleisten Sie eine reibungslose Versorgung Ihres Unternehmens mit Waren, Rohstoffen und
+                    Geräten.
+                    Wir können schlüsselfertige Waren aus dem Ausland liefern: Suche nach einem Lieferanten,
+                    vertragsabschluss (sowohl für sich selbst als auch für den Kunden), Währungsüberweisung,
+                    Zertifizierung,
+                    zollabfertigung, Tür-zu-Tür-Lieferung.
+                </p>
+            </div>
+
+            <ul class="how-we-work-list">
+                <li>
+                    <div class="marker">01</div>
+                    <h5>Berechnung der Transaktion</h5>
+                    <p class="descriptor-3">Der Kunde füllt den Antrag aus.
+                        Unser Manager berechnet die Kosten für den Transport und die damit verbundenen Dienstleistungen.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">02</div>
+                    <h5>Zahlung an den Lieferanten</h5>
+                    <p class="descriptor-3">
+                        Wir können alle Bemühungen um den Abschluss eines Außenwirtschaftsvertrags und die Umsetzung
+                        übernehmen
+                        überweisungen an Ihren Lieferanten.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">03</div>
+                    <h5>Dokumentarische Begleitung</h5>
+                    <p class="descriptor-3">
+                        Unser Manager bereitet den vollständigen Satz der erforderlichen Unterlagen für die Software vor
+                        und übergibt sie an den Kunden
+                        der durchgeführten Beförderung und damit verbundenen Dienstleistungen.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">04</div>
+                    <h5>Vertragsunterzeichnung</h5>
+                    <p class="descriptor-3">
+                        Unser Manager bereitet den Vertrag auf der Grundlage des Antrags vor. Die Unterzeichnung des
+                        Vertrags kann
+                        mit EDS durchgeführt
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">05</div>
+                    <h5>Transport und Gewohnheit</h5>
+                    <p class="descriptor-3">
+                        Unser Manager überwacht die Ausführung des Transports und die damit verbundenen Dienstleistungen
+                        in allen Phasen
+                        transport und Zollabfertigung (falls im Antrag enthalten) und berät auch. Client-Software
+                        vollständigkeit und Richtigkeit der für den Transport erforderlichen Erledigung
+                        (Zollabfertigung)
+                        Dokumente.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="do-you-have-questions-container section-container">
+        <section id="about-us_do-you-have-questions">
+            <h2><span>Haben Sie noch Fragen?</span></h2>
+            <div class="section-description">
+                <p class="descriptor-2">
+                    Für alle Fragen können Sie sich an den Manager des Unternehmens wenden.
+                    Wir werden uns zu Ihrer gewünschten Zeit mit Ihnen in Verbindung setzen
+                </p>
+            </div>
+            <form action="" class="blank">
+                <input type="text" placeholder="Ihr Name" class="input-name">
+                <input type="mail" class="input-mail" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Nachricht"></textarea>
+                <p class="confidential-agreement">Wenn Sie auf "Senden" klicken, bestätigen Sie, dass Sie der
+                    <a>Datenschutzrichtlinie zustimmen</a>
+                </p>
+                <button class="send-blank">Senden</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="what-we-offer-container section-container">
+        <section id="about-us_what-we-offer">
+            <h3>Was</h3>
+            <h2>
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+
+                <span data-pointerover="replace-circles">wir anbieten</span>
+            </h2>
+
+            <div class="section-description">
+                <p class="descriptor-2">
+                    Unser Logistikunternehmen bietet Outsourcing- und Transportlogistikdienstleistungen für Außenhandel
+                    an.
+                    Unsere Manager regeln alle Fragen zum Außenhandel und organisieren den internationalen Transport von
+                    jedem
+                    waren, in
+                    einschließlich: jeder Komplexität und jeder Art von Transport, so dass Ihre Organisation sich
+                    konzentrieren kann
+                    auf
+                    ihr eigenes Geschäft führen.
+                </p>
+            </div>
+
+            <div class="section-description">
+                <p class="descriptor-2">
+                    Wir übernehmen sowohl die Organisation einer einmaligen Lieferung als auch die Gewährleistung einer
+                    störungsfreien Versorgung
+                    Eure
+                    geschäft mit Waren, Rohstoffen, Ausrüstung. Wir können die Lieferung von Waren aus dem Ausland
+                    «unter
+                    Schlüssel»:
+                    suche nach einem Lieferanten, Vertragsabschluss (sowohl für sich selbst als auch für den Kunden),
+                    Währungsüberweisung,
+                    Zertifizierung,
+                    zollabfertigung, Tür-zu-Tür-Lieferung.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="section-container service-container">
+        <section id="service" data-currentservice="1">
+            <div class="service-list-bg">
+                <img src="img/service-bg_1.png" alt="background" style="display: block;" class="js-service-bg_1">                
+                <img src="img/service-bg_2.png" alt="background" style="display: none;" class="js-service-bg_2">                
+                <img src="img/service-bg_3.png" alt="background" style="display: none;" class="js-service-bg_3">                
+                <img src="img/service-bg_4.png" alt="background" style="display: none;" class="js-service-bg_4">                
+                <img src="img/service-bg_5.png" alt="background" style="display: none;" class="js-service-bg_5">                                
+            </div>  
+            <h3>Warum wählen Sie uns</h3>
+            <h2>
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="white-circle lg-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+                <span data-pointerover="replace-circles">Dienstleistungen</span>
+            </h2>
+            <ol class="service-list">
+                <li>
+                    <button data-click="open-service-info" data-servicenum="1">Vertrags-Logistik
+                        Außenwirtschaft</button>
+                    <div id="service-info_1-mobile" class="service-info-mobile" style="display: none;">
+                        <p class="section-description descriptor-2">
+                            Wir werden die Funktionen der externen Wirtschaftstätigkeit der Abteilung Ihres Unternehmens
+                            auslagern
+                        </p>
+                        <ul class="service-description-list">
+                            <li>
+                                Wir werden die Funktionen der externen Wirtschaftstätigkeit der Abteilung Ihres
+                                Unternehmens auslagern
+                            </li>
+                            <li>
+                                Steuerung der Finanzbewegung bei der Umsetzung außenwirtschaftlicher Aktivitäten, die
+                                es ist ein wichtiger Bestandteil des logistischen Prozesses und kann einen wesentlichen
+                                Einfluss auf
+                                das Endergebnis.
+                                Teilnahme an allen Phasen der Finanzroute, wodurch sie optimal und korrekt ist
+                            </li>
+                            <li>
+                                Kosten- und Gewinnmanagement für außenwirtschaftliche Transaktionen.
+                            </li>
+                            <li>
+                                Erbringung von Dienstleistungen eines Außenhandelsagenten.
+                            </li>
+                            <li>
+                                Erbringung von Dienstleistungen des Importeurs / Exporteurs.
+                            </li>
+                        </ul>
+                        <p class="section-description descriptor-2">
+                            Wir bieten auch Frachtkonsolidierungsdienstleistungen in den Lagern der Partneragenten in
+                            China an,
+                            dadurch können Sie Geld sparen, indem Sie eine große Charge versenden.
+                        </p>
+                        <p class="section-description descriptor-2">
+                            Wir arbeiten an Flugzielen aus JUVA, Nordamerika und Europa.
+                        </p>
+                        <p class="section-description descriptor-2">
+                            Wenn Sie nach einer kostengünstigeren Versandoption suchen, aber nicht bereit sind, auf
+                            Ihren Artikel zu warten,
+                            wenn Sie es auf dem Seeweg liefern, probieren Sie den Eisenbahnservice aus China aus, den
+                            Sie hier erfahren können oder
+                            rufen Sie uns an.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <button data-click="open-service-info" data-servicenum="2">Frachtzaun und -verpackung</button>
+                    <div id="service-info_2-mobile" class="service-info-mobile" style="display: none;">
+
+                        <p class="section-description descriptor-2">
+                            Der Service "Frachtzaun" sieht vor, die Ladung und die Begleitdokumente zu erhalten, die sie
+                            in
+                            an einem Ort.
+                        </p>
+                        <p class="section-description descriptor-2">
+                            Professionell ausgeführte Verpackungen und sorgfältig ausgewählte Verpackungsmaterialien
+                            schützen die Ladung
+                            vor Beschädigungen, Verlust und unbefugtem Zugriff während des Transports.
+                        </p>
+                        <ul class="service-description-list">
+                            <li>Frachtzaun Tag für Tag</li>
+                            <li>Lieferung von Waren in der Nacht</li>
+                            <li>Zaun/Lieferung am freien Tag</li>
+                            <li>Предлагается выбор упаковки:
+                                <ul class="service-description-list">
+                                    <li>Rahmenverpackung (starr)</li>
+                                    <li>Rahmenlose Verpackung</li>
+                                    <li>Verpackung</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button data-click="open-service-info" data-servicenum="3">Inspektion Fracht</button>
+                    <div id="service-info_3-mobile" class="service-info-mobile" style="display: none;">
+
+                        <p class="section-description descriptor-2">
+                            Eine Überprüfung des Güterzustandes ist sowohl vor dem Versand als auch bei direktem Versand
+                            erforderlich
+                            erhalt der Ladung. Wir führen folgende Arten von Surveyor-Dienstleistungen durch:
+                        </p>
+                        <ul class="service-description-list">
+                            <li>
+                                Fracht-Survey
+                                <ul class="service-description-list">
+                                    <li>Inspektion der Produktqualität beim Hersteller</li>
+                                    <li>Pre-Boot-Inspektion</li>
+                                    <li>Kontrolle des Ladeprozesses</li>
+                                    <li>Die Anwesenheit des Surveyors bei der Inspektion der Ladung (Veterinär-,
+                                        Zoll-usw.)</li>
+                                    <li>Inspektion beim Umschlag durch Entladen des Containers</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Inspektion der Ware auf Lager
+                            </li>
+                            <li>Technische Überprüfung von Güterfahrzeugen, Containern und Waggons</li>
+                            <li>Prüfung von Schäden und Verlust der Ladung</li>
+                            <li>Seeübersicht</li>
+                            <li>Kontrolle von Warenpfändungen für Banken</li>
+                            <li>Inspektion von Getreide und Futtermitteln gemäß den GAFTA-Vorschriften</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button data-click="open-service-info" data-servicenum="4">Aufbewahrung</button>
+                    <div id="service-info_4-mobile" class="service-info-mobile" style="display: none;">
+
+                        <p class="section-description descriptor-2">
+                            Der Kunde erhält einen vollständigen Satz von Dokumenten für die Berichterstattung. Wir
+                            können wertvolle und
+                            zerbrechliche Waren vor möglichen Beschädigungen während der Lagerzeit. Bei
+                            wir müssen den Personenschutz sicherstellen. Wir behandeln die Ladung sorgfältig und
+                            sorgfältig
+                            während des gesamten Zeitraums der verantwortungsvollen Lagerung
+                        </p>
+                        <ul class="service-description-list">
+                            <li>24 Stunden Sicherheit</li>
+                            <li>Platz für die Lagerung von Ladungen von 1 Palette</li>
+                            <li>Be- und Entladungstechnik</li>
+                            <li>Handhabung der Ladung</li>
+                            <li>Qualifiziertes Personal</li>
+                            <li>Versand der Ware an den Empfänger nach der Lagerung ohne Beteiligung des Kunden</li>
+                            <li>Ladung aufnehmen und wiegen</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button data-click="open-service-info" data-servicenum="5">
+                        Zollabwicklung
+                    </button>
+                    <div id="service-info_5-mobile" class="service-info-mobile" style="display: none;">
+                        <p class="section-description descriptor-2">
+                            Zollkontrolle der Ladung vor der Freigabe
+                        </p>
+                        <ul class="service-description-list">
+                            <li>Standard-Import</li>
+                            <li>Vorübergehende Einfuhr</li>
+                            <li>Transit</li>
+                            <li>Wiederausfuhr</li>
+                        </ul>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <div id="service-info_1" class="service-info" style="display: block;">
+            <h4>Vertrags-Logistik</h4>
+            <p class="section-description descriptor-2">
+                Wir werden die Funktionen der externen Wirtschaftstätigkeit der Abteilung Ihres Unternehmens auslagern
+            </p>
+            <ul class="service-description-list">
+                <li>
+                    Die Arbeit mit Importlieferanten/Käufern, nämlich: Partnersuche, Verhandlungen über
+                    bedingungen der Transaktion, Vorbereitung für die Unterzeichnung von außenwirtschaftlichen Verträgen
+                </li>
+                <li>
+                    Steuerung der Finanzbewegung bei der Umsetzung außenwirtschaftlicher Aktivitäten, was wichtig ist
+                    eine Komponente des logistischen Prozesses und kann das Endergebnis erheblich beeinflussen.
+                    Teilnahme an allen Phasen der Finanzroute, wodurch sie optimal und korrekt ist
+                </li>
+                <li>
+                    Kosten- und Gewinnmanagement für außenwirtschaftliche Transaktionen.
+                </li>
+                <li>
+                    Erbringung von Dienstleistungen eines außenwirtschaftlichen Agenten
+                </li>
+                <li>
+                    Erbringung von Dienstleistungen des Importeurs / Exporteurs.
+                </li>
+            </ul>            
+        </div>
+        <div id="service-info_2" class="service-info" style="display: none;">
+            <h4>Frachtzaun und -verpackung</h4>
+            <p class="section-description descriptor-2">
+                Der Service "Frachtzaun" sieht vor, die Ladung und die Begleitdokumente an einem Ort zu erhalten.
+            </p>
+            <p class="section-description descriptor-2">
+                Professionell ausgeführte Verpackungen und korrekt ausgewählte Verpackungsmaterialien schützen die
+                Ladung vor
+                schäden, Verlust und unbefugten Zugriff während des Transports.
+            </p>
+            <ul class="service-description-list">
+                <li>Frachtzaun Tag für Tag</li>
+                <li>Lieferung von Waren in der Nacht</li>
+                <li>Zaun/Lieferung am freien Tag</li>
+                <li>Eine Auswahl an Verpackungen wird angeboten
+                    <ul>
+                        <li>Rahmenverpackung (starr)</li>
+                        <li>Rahmenlose Verpackung</li>
+                        <li>Verpackung</li>
+                    </ul>
+                </li>
+            </ul>            
+        </div>
+        <div id="service-info_3" class="service-info" style="display: none;">
+            <h4>Inspektion
+                Fracht</h4>
+            <p class="section-description descriptor-2">
+                Die Überprüfung des Status der Ladung ist sowohl vor dem Versand als auch bei direktem Empfang der
+                Ladung erforderlich. Wir
+                wir führen folgende Arten von Surveyor-Dienstleistungen durch:
+            </p>
+            <ul class="service-description-list">
+                <li>
+                    Fracht-Survey
+                </li>
+                <li>
+                    Inspektion der Ware auf Lager
+                </li>
+                <li>Technische Überprüfung von Güterfahrzeugen, Containern und Waggons</li>
+                <li>Prüfung von Schäden und Verlust der Ladung</li>
+                <li>Seeübersicht (Seeübersicht)</li>
+                <li>Kontrolle von Warenpfändungen für Banken</li>
+                <li>Inspektion von Getreide und Futtermitteln gemäß den GAFTA-Vorschriften</li>
+            </ul>            
+        </div>
+        <div id="service-info_4" class="service-info" style="display: none;">
+            <h4>Lagerung der Ladung</h4>
+            <p class="section-description descriptor-2">
+                Der Kunde erhält einen vollständigen Satz von Dokumenten für die Berichterstattung. Wir können wertvolle
+                und zerbrechliche Waren versichern
+                von möglichen Schäden während der Lagerzeit der Waren. Wir stellen bei Bedarf sicher
+                personenschutz. Wir behandeln die Ladung während des gesamten Zeitraums des Verantwortlichen sorgfältig
+                und sorgfältig
+                Lagerungen
+            </p>
+            <ul class="service-description-list">
+                <li>24 Stunden Sicherheit</li>
+                <li>Platz für die Lagerung von Ladungen von 1 Palette</li>
+                <li>Be- und Entladungstechnik</li>
+                <li>Be- und Entladungstechnik</li>
+                <li>Qualifiziertes Personal</li>
+                <li>Versand der Ware an den Empfänger nach der Lagerung ohne Beteiligung des Kunden</li>
+                <li>Ladung aufnehmen und wiegen</li>
+            </ul>
+        </div>
+        <div id="service-info_5" class="service-info" style="display: none;">
+            <h4>Zollabwicklung</h4>
+            <p class="section-description descriptor-2">
+                Zollkontrolle der Ladung vor der Freigabe
+            </p>
+            <ul class="service-description-list">
+                <li>Standard-Import</li>
+                <li>Vorübergehende Einfuhr</li>
+                <li>Transit</li>
+                <li>wiederausfuhr</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section-container">
+        <section id="international">
+            <h2>
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+                <span data-pointerover="replace-circles">Internationale <br> Güterbeförderung</span>
+            </h2>
+
+            <p class="section-description descriptor-2">
+                Wir organisieren die Lieferung Ihrer Fracht "von Tür zu Tür" mit jeder Art von Transport. Verwenden Sie
+                eine Kombination
+                verschiedene Transportarten in der Lieferkette (multimodaler Transport)
+                unter Berücksichtigung der Optimierung der Transportkosten und der Einhaltung der grundlegenden
+                logistischen Anforderungen und Kriterien.
+            </p>
+
+
+        </section>
+        <ul class="international-list">
+            <li>
+                <div class="transportation-period">
+                    <img src="icons/calendar.svg" alt="">
+                    <span>ab 3 Tagen</span>
+                </div>
+                <div class="transport-content">
+                    <h4>flug</h4>
+                    <p class="descriptor-4">
+                        Fullservice
+                        zur Konsolidierung der Luftfracht
+                        und eine direkte Nachricht.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="transportation-period">
+                    <img src="icons/calendar.svg" alt="">
+                    <span>ab 7 Tagen</span>
+                </div>
+                <div class="transport-content">
+                    <h4>Meer</h4>
+                    <p class="descriptor-4">
+                        Komplettlösungen für
+                        seefracht LCL und FCL
+                        in jede Richtung
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="transportation-period">
+                    <img src="icons/calendar.svg" alt="">
+                    <span>ab 4 Tagen</span>
+                </div>
+                <div class="transport-content">
+                    <h4>auto</h4>
+                    <p class="descriptor-4">
+                        LTL-Lösungen, die
+                        komplexe Lieferung. Europa, Russland,
+                        Nordafrika, GUS-Staaten, China
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="transportation-period">
+                    <img src="icons/calendar.svg" alt="">
+                    <span>ab 2 Tagen</span>
+                </div>
+                <div class="transport-content">
+                    <h4>bahn</h4>
+                    <p class="descriptor-4">
+                        LCL- und FCL-Lösungen,
+                        schnelle Lieferung von China nach Russland und Europa
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-container for-business-container">
+
+        <img src="img/for-buiseness-bg.png" alt="" class="vector-group">
+
+        <section id="business">
+            <h2>
+                <div class="circle-group">
+                    <div class="col-4-circle sm-circle"></div>
+                    <div class="col-1-circle lg-circle"></div>
+                </div>
+
+                <span data-pointerover="replace-circles">Business-Lösungen</span>
+            </h2>
+            <div class="section-description">
+                <div class="descriptor-2">
+                    Wir sind bereit, Nicht-Standard-Lösungen für Ihr Unternehmen anzubieten und einen kompletten Komplex
+                    bereitzustellen
+                    begleitende Dienstleistungen.
+                </div>
+            </div>
+
+            <ul class="how-we-work-list">
+                <li>
+                    <div class="marker">01</div>
+                    <h5>Rechenzentrum</h5>
+                    <p class="descriptor-3">
+                        Wir verwalten die Logistikprozeduren von DATA-Centers-Kunden
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">02</div>
+                    <h5>EOR-IOR-Agent</h5>
+                    <p class="descriptor-3">
+                        Dienstleistungen des Importeurs/Exporteurs
+                        in Russland und Europa.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">03</div>
+                    <h5>Zertifizierung</h5>
+                    <p class="descriptor-3">
+                        Wir bereiten ein Paket der erforderlichen Genehmigungen für die Zollabfertigung der Fracht vor -
+                        zertifikate, DS, Bescheinigungen, Lizenzen.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">04</div>
+                    <h5>Versicherung</h5>
+                    <p class="descriptor-3">
+                        Wir helfen bei der Auswahl einer Versicherungsgesellschaft für die Frachtversicherung.
+                    </p>
+                </li>
+                <li>
+                    <div class="marker">05</div>
+                    <h5>Globaler Handelsagent</h5>
+                    <p class="descriptor-3">
+                        Wir bieten die Dienste eines internationalen Handelsvertreters an.
+                        Wir werden die internationale Marktforschung auf Ihre Anfrage durchführen,
+                        wir beraten Sie bei der Auswahl eines Lieferanten, bei der Ausschreibung und
+                        beschaffungsverfahren. Wir sind bereit, mit potenziellen Partnern zu verhandeln und mit ihnen zu
+                        verhandeln
+                        verträge wie Ihr Agent.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="section-container partners-container">
+        <section id="partners">
+            <h3>Unsere</h3>
+            <h2>
+                <div class="circle-group">
+                    <div class="col-1-circle lg-circle"></div>
+                    <div class="col-4-circle sm-circle"></div>
+                </div>
+                <span data-pointerover="replace-circles">Partner</span>
+            </h2>
+
+            <div class="partners-list-container">
+                <button class="slider-arrow" id="get-previous-partner" data-click="get-previous-partner">
+                    <img src="icons/back-arrow.svg" alt="">
+                </button>
+
+                <ul class="partners-list">
+                    <li>
+                        <img src="img/partner-1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/partner-2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/partner-3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/partner-4.png" alt="">
+                    </li>
+                </ul>
+
+                <button class="slider-arrow" id="get-next-partner" data-click="get-next-partner">
+                    <img src="icons/next-arrow.svg" alt="">
+                </button>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="section-container footer-container" id="footer">
+        <footer>
+            <div class="assign-footer-block">
+                <div class="footer-block">
+                    <h4 class="header-5">Dienstleistungen</h4>
+
+                    <ul class="descriptor-5">
+                        <li>Vertrags-Logistik
+                            Außenwirtschaft</li>
+                        <li>Frachtzaun und -verpackung</li>
+                        <li>Inspektion Fracht</li>
+                        <li>Aufbewahrung</li>
+                        <li>Zollabwicklung</li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h4 class="header-5">Sammelgut</h4>
+
+                    <ul class="descriptor-5">
+                        <li>Lieferung von/nach Europa</li>
+                        <li>Lieferung in die GUS</li>
+                        <li>Lieferung aus China</li>
+                        <li>Lieferung aus Korea</li>
+                        <li>Lieferung aus Israel</li>
+                        <li>Lieferung aus USA</li>
+                        <li>Lieferung aus Kanada</li>
+                        <li>Lieferung von/nach Nordamerika</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-block offices">
+                <h4 class="header-5">Unsere Büros</h4>
+
+                <div class="offices-container">
+                    <ul class="descriptor-5">
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Novorossiysk</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Domoedovo</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Tel-aviv</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Tunis</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Vladivostok</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Shermetyevo</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Shanghai</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                        <li>
+                            <h6 class="header-5"><img src="icons/geo.svg" alt="">Budapest</h6>
+                            <p class="descriptor-5"><img src="icons/col-1-message.svg" alt="">info@vedexpress.com </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-block contacts">
+                <h4 class="header-5">Kontakte</h4>
+
+                <ul class="descriptor-5">
+                    <li><img src="icons/ooo.svg" alt="">WEDEXPRESS LLC</li>
+                    <li><img src="icons/checkmark.svg" alt="">STEUER-ID 7811767459</li>
+                    <li><img src="icons/adres.svg" alt="">192029, St. Petersburg, Obukhovskaya Defense Ave 76, Korp.7,
+                        gegossen.Oh, pom. 2313B</li>
+                    <li><img src="icons/void-send.svg" alt="">info@vedexpress.com</li>
+                    <li><img src="icons/void-clock.svg" alt="">пн-вс: 10.00-18.00</li>
+                </ul>
+            </div>
+
+            <div class="footer-block docs">
+                <a>Nutzungsbedingungen</a>
+                <a>Datenschutz</a>
+            </div>
+        </footer>
+      <p id="me">© Konstantin Larin</p>                                          	
+    </div>
+    <script src="js/events.js"></script>
+    <script src="js/mediaQuery.js"></script>
+</body>
+
+</html>
